@@ -1,7 +1,27 @@
 aid: aerodyne
 name: Aerodyne
-description: Aerodyne is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aerodyne Group is a Malaysia-headquartered DT3 (drone technology, data technology, and digital
+  transformation) enterprise solutions provider, founded in 2014. Through its Drone-as-a-Service
+  (DaaS) model and the AI-powered, cloud-based vertikaliti asset-management platform, Aerodyne turns
+  aerial and sensor data into deep analytics and actionable insights for infrastructure, power line,
+  wind turbine, solar, and agricultural (Agrimor) asset inspection and management. Operating across
+  45 countries with a global network of AeroRangers, it was ranked the world's number-one drone
+  service provider by Drone Industry Insights in 2021 and 2022. Aerodyne is a 500 Global portfolio
+  company. No public developer portal, API, or machine-readable specification has been identified at
+  this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://aerodyne.group/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/aerodyne/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +34,15 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Drones
+- Drone-as-a-Service
+- Geospatial
+- Asset Management
+- Data Analytics
+- Digital Transformation
+- Infrastructure Inspection
+- Agriculture
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,21 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/aerodyne-domain-security.yml
 - type: Website
   url: https://aerodyne.group
+- type: Blog
+  name: Media
+  url: https://aerodyne.group/media.html
+- type: Support
+  name: Contact Us
+  url: https://aerodyne.group/contact.html
+- type: PrivacyPolicy
+  name: PDPA Notice
+  url: https://aerodyne.group/pdpa.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

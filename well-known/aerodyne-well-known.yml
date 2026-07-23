@@ -1,0 +1,20 @@
+generated: '2026-07-17'
+method: searched
+source: live probes of https://aerodyne.group/.well-known/*
+host: https://aerodyne.group
+notes: >-
+  All /.well-known/ paths return HTTP 403 (blanket WAF/edge block, not a real
+  discovery document). No well-known documents are published. No subdomains
+  (developer./docs./api.) resolve. Recorded as honest negative probe data; no
+  WellKnown pointer is wired because no 200 document exists.
+documents:
+- path: /.well-known/security.txt
+  status: 403
+- path: /.well-known/openid-configuration
+  status: 403
+- path: /.well-known/oauth-authorization-server
+  status: 403
+- path: /.well-known/api-catalog
+  status: 403
+- path: /.well-known/ai-plugin.json
+  status: 403
