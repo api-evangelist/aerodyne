@@ -10,6 +10,17 @@ description: >-
   service provider by Drone Industry Insights in 2021 and 2022. Aerodyne is a 500 Global portfolio
   company. No public developer portal, API, or machine-readable specification has been identified at
   this time.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
